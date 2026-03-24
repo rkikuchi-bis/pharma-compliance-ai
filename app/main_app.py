@@ -102,8 +102,6 @@ st.set_page_config(
     layout="wide",
 )
 
-st.title("Pharma Compliance AI")
-
 if "ui_language" not in st.session_state:
     st.session_state.ui_language = "en"
 
