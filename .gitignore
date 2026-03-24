@@ -22,10 +22,8 @@ Thumbs.db
 # Streamlit
 .streamlit/
 
-# Model / cache
+# cache
 .cache/
-chromadb/
-chroma/
 hf_cache/
 sentence_transformers/
 
@@ -35,3 +33,9 @@ sentence_transformers/
 # Editor
 .vscode/
 .idea/
+
+# ChromaDB
+chroma_db/
+chroma/
+*.sqlite3
+*.bin
