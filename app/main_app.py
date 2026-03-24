@@ -8,6 +8,11 @@ from app.rag_engine import RAGEngine
 
 DEFAULT_TOP_K = 8
 
+st.title("Pharma Compliance AI")
+st.markdown("""
+**Compliance decision-making for interactions with healthcare professionals**  
+医療従事者との適切な関係に関する判断支援
+""")
 
 def t(lang: str, ja: str, en: str) -> str:
     return ja if lang == "ja" else en
