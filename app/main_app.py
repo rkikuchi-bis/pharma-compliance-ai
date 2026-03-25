@@ -146,6 +146,14 @@ with col_b:
 st.caption("・Questions entered in English can be evaluated against the selected region(s).")
 st.caption("・日本語で入力した質問は、選択した地域の規制を基準に回答します。")
 
+st.warning(
+    t(
+        lang,
+        "⚠️ 企業機密情報や個人情報は入力しないでください。",
+        "⚠️ Please do not input any confidential or personal information."
+    )
+)
+
 query = st.text_area(
     t(lang, "質問", "Question"),
     height=120,
